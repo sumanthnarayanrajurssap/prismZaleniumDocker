@@ -342,7 +342,7 @@ WORKDIR /home/seluser
 #==========
 EXPOSE 4444 4445
 
-ENV ZAL_VER="zalenium" \
+ENV ZAL_VER="3.141.59w" \
     BROWSER_STACK_TUNNEL_OPTS="-skipCheck -v -forcelocal" \
     BROWSER_STACK_TUNNEL_ID="zalenium" \
     BROWSER_STACK_TUNNEL="false" \
