@@ -385,9 +385,6 @@ COPY zalenium.sh \
  wait-lambdatest.sh \
  dashboard_template.html \
  zalando.ico \
- logging_info.properties \
- logging_debug.properties \
- logback.xml \
  /home/seluser/
 COPY scm-source.json /
 
