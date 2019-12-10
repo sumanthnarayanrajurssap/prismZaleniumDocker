@@ -365,7 +365,7 @@ ENV ZAL_VER="3.141.59w" \
     SELENIUM_CONTAINER_LABELS="" \
     SELENIUM_WAIT_FOR_CONTAINER="true"
 
-COPY entry.sh log warn error /usr/bin/
+COPY scripts/entry.sh log warn error /usr/bin/
 COPY nginx.conf error.html /home/seluser/
 COPY css/ /home/seluser/css/
 COPY js/ /home/seluser/js/
